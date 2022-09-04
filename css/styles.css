@@ -41,6 +41,9 @@ ul {
   color: #ffffff;
   letter-spacing: 0.03em;
   text-decoration: none;
+  display: inline-block;
+  padding-top: 60px;
+  padding-bottom: 20px;
 
 }
 .list {
@@ -95,14 +98,15 @@ ul {
   background-color: #2f303a;
 }
 .section-hero-title {
-  font-style: normal;
-  font-weight: 900;
+ 
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primari-background-color);
+  padding-top: 106px;
+  padding-bottom: 30px;
 }
 
 .btn {
@@ -116,7 +120,10 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
-}
+  text-align: center;
+  
+  
+} 
 
 .btn-portfolio {
   font-weight: 500;
@@ -178,6 +185,7 @@ ul {
 
 .footer {
   background-color: #2f303a;
+  padding-bottom: 60px;
   
 }
 /* зкидання left padding для ul у футері */
@@ -192,6 +200,7 @@ padding-left: 0px;
   line-height: 1.7;
   text-decoration: none;
   color: #ffffff;
+  padding-bottom: 9px;
 }
 .footer-contact-mailtel {
   font-style: normal;
@@ -199,6 +208,10 @@ padding-left: 0px;
   line-height: 1.7;
   text-decoration: none;
   color: var(--secondary-text-color);
+  padding-bottom: 9px;
+}
+.footer-contact-mailtel.nopadding{
+  padding-bottom: 0px;
 }
 .footer-contact-map:hover,
 .footer-contact-mailtel:hover,
