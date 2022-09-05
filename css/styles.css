@@ -44,7 +44,6 @@ ul {
   display: inline-block;
   padding-top: 60px;
   padding-bottom: 20px;
-
 }
 .list {
   list-style: none;
@@ -52,24 +51,21 @@ ul {
 
 .web {
   color: var(--accent-color);
-
 }
-.section{
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.container{
+.container {
   width: 1200px;
   outline: 2px solid tomato;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-
 }
-.section.no-padding{
-  padding-top: 0;  
-
+.section.no-padding {
+  padding-top: 0;
 }
 
 .site-nav {
@@ -77,14 +73,17 @@ ul {
   font-size: 14px;
   line-height: 1.15;
   color: var(--primary-text-color);
+  display: flex;
 }
 
 .link {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+
 .site-contact {
   text-decoration: none;
+  display: flex;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -96,9 +95,9 @@ ul {
 }
 .section-hero {
   background-color: #2f303a;
+  padding-bottom: 200px;
 }
 .section-hero-title {
- 
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
@@ -120,19 +119,35 @@ ul {
   color: #ffffff;
   background-color: var(--accent-color);
   cursor: pointer;
-  text-align: center;
-  
-  
-} 
+  border-radius: 6px;
+}
+.btn-portfolio-list {
+  display: flex;
+  margin-bottom: 50px;
+}
 
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   color: #212121;
+  height: 25px;
   background-color: #f5f4fa;
   cursor: pointer;
+  border-radius: 4px;
+  border: 0;
 }
+.btn-portfolio-list .btn-portfolio{
+  margin-right: 8px;
+  height:38px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+
+
+
+
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
@@ -168,8 +183,8 @@ ul {
   color: var(--primary-text-color);
 }
 /* секція команда */
-.section-team{
-  background-color:#F5F4FA;
+.section-team {
+  background-color: #f5f4fa;
 }
 
 .face {
@@ -186,11 +201,10 @@ ul {
 .footer {
   background-color: #2f303a;
   padding-bottom: 60px;
-  
 }
 /* зкидання left padding для ul у футері */
-.footer-contact-list.list{
-padding-left: 0px;
+.footer-contact-list.list {
+  padding-left: 0px;
 }
 
 .footer-contact-map {
@@ -210,7 +224,7 @@ padding-left: 0px;
   color: var(--secondary-text-color);
   padding-bottom: 9px;
 }
-.footer-contact-mailtel.nopadding{
+.footer-contact-mailtel.nopadding {
   padding-bottom: 0px;
 }
 .footer-contact-map:hover,
