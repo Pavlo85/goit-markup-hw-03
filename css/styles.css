@@ -168,6 +168,9 @@ header nav{
 .btn-portfolio-list {
   display: flex;
   margin-bottom: 50px;
+
+
+justify-content: center;
 }
 
 .btn-portfolio {
@@ -188,7 +191,15 @@ header nav{
   padding-left: 22px;
 }
 
-
+/* портфоліо */
+  .projects{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+.projects .list{
+  margin: 15px;
+}
 
 
 
