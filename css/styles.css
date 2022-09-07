@@ -90,6 +90,7 @@ min-width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
   margin-left: 93px;
+  
 
 }
 
@@ -130,6 +131,7 @@ header nav{
 .site-contact .link{
   margin-left: 50px;
   color: var(--secondary-text-color);
+  letter-spacing: 0.02em;
 
 }
 .site-nav .link:hover,
@@ -153,15 +155,17 @@ header nav{
   color: var(--primari-background-color);
   padding-top: 106px;
   padding-bottom: 30px;
+  letter-spacing: 0.06em;
 }
 
 .btn {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   width: 216px;
   height: 50px;
+  letter-spacing: 0.06em;
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   align-items: center;
   text-align: center;
@@ -219,8 +223,6 @@ justify-content: center;
   padding-right: 24px;
 }
 .item-name{
-  font-family: 'Roboto';
-
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
@@ -230,9 +232,8 @@ padding-top: 20px;
   margin-bottom: 4px;
 }
 .item-typename{
-  margin-bottom: 20px;
-  color: var(--secondary-text-color);
-  font-family: 'Roboto';
+ margin-bottom: 20px;
+color: var(--secondary-text-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -260,6 +261,7 @@ line-height: 1.9
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-text-color);
   margin-bottom: 10px;
@@ -278,8 +280,10 @@ margin-right: 30px;
   justify-content: space-between;
 }
 .quality-discription {
+  font-family: 'Roboto';  
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
   /* }чи ми займаємось */
@@ -314,6 +318,7 @@ margin: auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
   margin-bottom: 50px;
