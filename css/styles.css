@@ -348,10 +348,10 @@ margin: auto;
 }
 
 .footer-contact-map {
-  /* перекриває adress */
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  /* line-height: 1.7; */
+  line-height: 2;
   text-decoration: none;
   color: #ffffff;
   padding-bottom: 9px;
@@ -359,7 +359,8 @@ margin: auto;
 .footer-contact-mailtel {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.7;
+  /* line-height: 1.7; */
+  line-height: 2;
   text-decoration: none;
   color: var(--secondary-text-color);
   padding-bottom: 9px;
