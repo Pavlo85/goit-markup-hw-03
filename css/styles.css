@@ -210,7 +210,7 @@ justify-content: center;
 .item-description{
   
   border-bottom: 1px solid #EEEEEE;
-  border-right: #EEEEEE;
+  border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
   padding-left: 24px;
   padding-right: 24px;
