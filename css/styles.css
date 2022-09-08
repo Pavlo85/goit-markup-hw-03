@@ -204,7 +204,7 @@ justify-content: center;
 }
 
 /* портфоліо */
- .projects {
+.projects {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
