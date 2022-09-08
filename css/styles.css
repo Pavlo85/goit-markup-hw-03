@@ -204,18 +204,17 @@ justify-content: center;
 }
 
 /* портфоліо */
-  .projects{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -15px;
-  }
-.projects .item{
-  margin: 15px;
-
-  
+ .projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+}
+.projects .item {
+  flex-basis: calc((100% - 60px) / 3);
+  padding: 0;
 }
 .item-description{
-  
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
   border-left: 1px solid #EEEEEE;
